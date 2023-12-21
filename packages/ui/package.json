@@ -2,14 +2,19 @@
   "name": "@tracksubz/ui",
   "version": "0.0.0",
   "private": true,
-  "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "files": [
+    "components/",
+    "lib/",
+    "primitives/",
+    "hooks/"
+  ],
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component"
+    "lint": "eslint .",
+    "link:fix": "eslint . --fix",
+    "clean": "rimraf node_modules"
   },
   "devDependencies": {
     "@tracksubz/eslint-config": "*",
