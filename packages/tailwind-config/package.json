@@ -1,0 +1,12 @@
+{
+  "name": "@tracksubz/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf node_modules"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

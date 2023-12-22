@@ -1,0 +1,9 @@
+{
+  "extends": "@tracksubz/typescript-config/base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": ["**/*.cjs", "**/*.js"],
+  "exclude": ["dist", "build", "node_modules"]
+}
