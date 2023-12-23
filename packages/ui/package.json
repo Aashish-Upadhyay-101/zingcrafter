@@ -19,6 +19,7 @@
   "devDependencies": {
     "@tracksubz/eslint-config": "*",
     "@tracksubz/typescript-config": "*",
+    "@tracksubz/tailwind-config": "*",
     "@turbo/gen": "^1.10.12",
     "@types/eslint": "^8.44.7",
     "@types/node": "^20.5.2",

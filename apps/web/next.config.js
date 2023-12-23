@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  transpilePackages: ["@tracksubz/ui"],
+const nextConfig = {
+  reactStrictMode: true,
+  transpilePackages: ["@tracksubz/ui", "@tracksubz/tailwind-config"],
 };
+
+module.exports = nextConfig;

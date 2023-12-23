@@ -1,17 +1,25 @@
 {
   "extends": "@tracksubz/typescript-config/nextjs.json",
   "compilerOptions": {
+    "baseUrl": ".",
+    "allowJs": true,
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "types": [], // will be later referenced from @tracksubz/lib/types
+    "strictNullChecks": true,
+    "incremental": false
   },
   "include": [
     "next-env.d.ts",
-    "next.config.js",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.d.ts",
     ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
