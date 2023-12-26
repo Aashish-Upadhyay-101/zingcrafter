@@ -8,10 +8,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@tracksubz/eslint-config": "^0.0.0",
-    "@tracksubz/typescript-config": "^0.0.0",
     "@types/node": "^20.5.2",
+    "eslint": "^8.56.0",
     "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
     "turbo": "latest"
   },
   "engines": {
@@ -20,6 +20,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {}
+  ]
 }

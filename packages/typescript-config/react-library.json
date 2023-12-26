@@ -4,12 +4,13 @@
   "extends": "./base.json",
   "compilerOptions": {
     "alwaysStrict": true,
+    "strict": true,
     "jsx": "preserve",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "noEmit": true,
     "declaration": false,
     "declarationMap": false,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   }
 }

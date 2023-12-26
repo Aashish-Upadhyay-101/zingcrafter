@@ -1,10 +1,5 @@
 module.exports = {
-  extends: [
-    "next",
-    "turbo",
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-  ],
+  extends: ["next", "turbo", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
 
   plugins: [
     "@typescript-eslint",
@@ -34,11 +29,11 @@ module.exports = {
   },
 
   rules: {
-    "@next/next/no-html-link-for-pages": "on",
-    "react/no-unescaped-entities": "off",
+    "@next/next/no-html-link-for-pages": 1,
+    "react/no-unescaped-entities": 0,
 
-    "@typescript-eslint/no-unused-vars": "warn",
-    "unused-imports/no-unused-imports": "warn",
+    "@typescript-eslint/no-unused-vars": 2,
+    "unused-imports/no-unused-imports": 2,
     "unused-imports/no-unused-vars": [
       "warn",
       {
@@ -80,10 +75,7 @@ module.exports = {
     //
     // To handle this we want this rule to catch usages and highlight them as
     // warnings so we can write appropriate interfaces and guards later.
-    "@typescript-eslint/consistent-type-assertions": [
-      "warn",
-      { assertionStyle: "never" },
-    ],
+    "@typescript-eslint/consistent-type-assertions": ["warn", { assertionStyle: "never" }],
 
     "@typescript-eslint/consistent-type-imports": [
       "warn",

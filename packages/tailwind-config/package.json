@@ -1,7 +1,7 @@
 {
   "name": "@tracksubz/tailwind-config",
   "version": "0.0.0",
-  "main": "index.cjs",
+  "main": "./index.cjs",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf node_modules"
