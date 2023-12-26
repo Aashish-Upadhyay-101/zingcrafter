@@ -5,6 +5,7 @@ import { prisma } from "@tracksubz/prisma";
 
 export const NEXT_AUTH_OPTIONS: AuthOptions = {
   adapter: PrismaAdapter(prisma),
+  secret: process.env.NEXTAUTH_SECRET as string,
   providers: [
     GoogleProvider<GoogleProfile>({
       clientId: process.env.GOOGLE_CLIENT_ID as string,

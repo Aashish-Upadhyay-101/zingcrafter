@@ -11,7 +11,7 @@ export default async function DashBoardLayout({ children }: DashBoardLayoutProps
   const session = await getServerSession(NEXT_AUTH_OPTIONS);
 
   if (!session) {
-    redirect("/api/auth/signin");
+    redirect("/auth/signin");
   }
 
   return <NextAuthProvider session={session}>{children}</NextAuthProvider>;
