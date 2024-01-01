@@ -18,9 +18,9 @@ This Turborepo includes the following packages/apps:
 
 - `docs`: a [Next.js](https://nextjs.org/) app
 - `web`: another [Next.js](https://nextjs.org/) app
-- `@tracksubz/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@tracksubz/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@tracksubz/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `@zingcrafter/ui`: a stub React component library shared by both `web` and `docs` applications
+- `@zingcrafter/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `@zingcrafter/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 

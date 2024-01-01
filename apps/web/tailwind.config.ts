@@ -1,10 +1,10 @@
-const baseConfig = require("@tracksubz/tailwind-config");
+const baseConfig = require("@zingcrafter/tailwind-config");
 const path = require("path");
 
 module.exports = {
   ...baseConfig,
   content: [
     ...baseConfig.content,
-    `${path.join(require.resolve("@tracksubz/ui"), "..")}/**/*.{ts,tsx}`, // this means to include the @tracksubz/ui file in this package and use them in the build process
+    `${path.join(require.resolve("@zingcrafter/ui"), "..")}/**/*.{ts,tsx}`, // this means to include the @zingcrafter/ui file in this package and use them in the build process
   ],
 };

@@ -2,7 +2,7 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   root: true,
-  extends: ["@tracksubz/eslint-config"],
+  extends: ["@zingcrafter/eslint-config"],
   rules: {
     "@next/next/no-img-element": "off",
   },

@@ -1,4 +1,4 @@
-import { NEXT_AUTH_OPTIONS } from "@tracksubz/lib/next-auth/auth-options";
+import { NEXT_AUTH_OPTIONS } from "@zingcrafter/lib/next-auth/auth-options";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 import { NextAuthProvider } from "~/providers/next-auth";

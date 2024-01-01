@@ -1,5 +1,5 @@
 {
-  "name": "@tracksubz/ui",
+  "name": "@zingcrafter/ui",
   "version": "0.0.0",
   "private": true,
   "main": "./index.ts",
@@ -15,9 +15,9 @@
     "clean": "rimraf node_modules"
   },
   "devDependencies": {
-    "@tracksubz/eslint-config": "*",
-    "@tracksubz/typescript-config": "*",
-    "@tracksubz/tailwind-config": "*",
+    "@zingcrafter/eslint-config": "*",
+    "@zingcrafter/typescript-config": "*",
+    "@zingcrafter/tailwind-config": "*",
     "@turbo/gen": "^1.10.12",
     "@types/eslint": "^8.44.7",
     "@types/react": "^18.2.0",

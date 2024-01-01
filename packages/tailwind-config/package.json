@@ -1,5 +1,5 @@
 {
-  "name": "@tracksubz/tailwind-config",
+  "name": "@zingcrafter/tailwind-config",
   "version": "0.0.0",
   "main": "./index.cjs",
   "license": "MIT",

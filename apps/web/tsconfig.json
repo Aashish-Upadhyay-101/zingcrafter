@@ -1,5 +1,5 @@
 {
-  "extends": "@tracksubz/typescript-config/nextjs.json",
+  "extends": "@zingcrafter/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "allowJs": true,
@@ -11,16 +11,10 @@
     "paths": {
       "~/*": ["./src/*"]
     },
-    "types": [], // will be later referenced from @tracksubz/lib/types
+    "types": [], // will be later referenced from @zingcrafter/lib/types
     "strictNullChecks": true,
     "incremental": false
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.d.ts",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.d.ts", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

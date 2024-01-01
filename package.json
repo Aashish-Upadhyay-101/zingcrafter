@@ -1,5 +1,5 @@
 {
-  "name": "@tracksubz/root",
+  "name": "@zingcrafter/root",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -7,11 +7,11 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "clean": "turbo run clean && rimraf node_modules",
-    "prisma:generate": "dotenv -e .env -- npm run prisma:generate -w @tracksubz/prisma",
-    "prisma:migrate-dev": "dotenv -e .env -- npm run prisma:migrate-dev -w @tracksubz/prisma",
-    "prisma:migrate-deploy": "dotenv -e .env -- npm run prisma:migrate-deploy -w @tracksubz/prisma",
-    "prisma:db-push": "dotenv -e .env -- npm run prisma:db-push -w @tracksubz/prisma",
-    "prisma:studio": "dotenv -e .env -- npm run prisma:studio -w @tracksubz/prisma"
+    "prisma:generate": "dotenv -e .env -- npm run prisma:generate -w @zingcrafter/prisma",
+    "prisma:migrate-dev": "dotenv -e .env -- npm run prisma:migrate-dev -w @zingcrafter/prisma",
+    "prisma:migrate-deploy": "dotenv -e .env -- npm run prisma:migrate-deploy -w @zingcrafter/prisma",
+    "prisma:db-push": "dotenv -e .env -- npm run prisma:db-push -w @zingcrafter/prisma",
+    "prisma:studio": "dotenv -e .env -- npm run prisma:studio -w @zingcrafter/prisma"
   },
   "devDependencies": {
     "@types/node": "^20.5.2",

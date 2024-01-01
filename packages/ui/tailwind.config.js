@@ -1,4 +1,4 @@
-const baseConfig = require("@tracksubz/tailwind-config");
+const baseConfig = require("@zingcrafter/tailwind-config");
 
 module.exports = {
   ...baseConfig,

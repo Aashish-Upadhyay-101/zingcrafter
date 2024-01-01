@@ -1,5 +1,5 @@
 {
-  "name": "@tracksubz/web",
+  "name": "@zingcrafter/web",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -12,9 +12,9 @@
     "clean": "rimraf .next && rimraf node_modules"
   },
   "dependencies": {
-    "@tracksubz/tailwind-config": "*",
-    "@tracksubz/typescript-config": "*",
-    "@tracksubz/ui": "*",
+    "@zingcrafter/tailwind-config": "*",
+    "@zingcrafter/typescript-config": "*",
+    "@zingcrafter/ui": "*",
     "next": "14.0.4",
     "next-auth": "^4.24.5",
     "react": "^18",

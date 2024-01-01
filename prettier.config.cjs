@@ -1,1 +1,1 @@
-module.exports = require("@tracksubz/prettier-config");
+module.exports = require("@zingcrafter/prettier-config");

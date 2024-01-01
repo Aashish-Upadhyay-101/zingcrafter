@@ -1,5 +1,5 @@
 {
-  "extends": "@tracksubz/typescript-config/react-library.json",
+  "extends": "@zingcrafter/typescript-config/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }
