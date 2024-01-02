@@ -1,4 +1,5 @@
 import { Button } from "@zingcrafter/ui/components/ui/button";
+import Link from "next/link";
 
 export default function MarketingPage() {
   return (
@@ -18,8 +19,8 @@ export default function MarketingPage() {
         ease and efficiency.
       </div>
 
-      <Button className="mt-6 bg-blue-600 duration-150 hover:bg-blue-700" size={"lg"}>
-        Get Started For Free
+      <Button asChild className="mt-6 bg-blue-600 duration-150 hover:bg-blue-700" size={"lg"}>
+        <Link href="/signin">Get Started for Free</Link>
       </Button>
     </div>
   );
