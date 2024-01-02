@@ -4,9 +4,9 @@ import { NEXT_AUTH_OPTIONS } from "@zingcrafter/lib/next-auth/auth-options";
 const handler = NextAuth({
   ...NEXT_AUTH_OPTIONS,
   pages: {
-    signIn: "/auth/signin",
-    signOut: "/auth/signout",
-    error: "/auth/signin",
+    signIn: "/signin",
+    signOut: "/signout",
+    error: "/signin",
   },
 });
 
