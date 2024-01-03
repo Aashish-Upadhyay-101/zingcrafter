@@ -8,7 +8,7 @@ export default function MarketingPage() {
         <h1 className="text-center text-3xl font-semibold text-neutral-700 md:text-6xl">
           <strong className="text-green-500">Craft.</strong>{" "}
           <strong className="text-blue-500">Connect.</strong>{" "}
-          <strong className="text-purple-500">Conquer.</strong> Build Your World, Where Control
+          <strong className="text-violet-500">Conquer.</strong> Build Your World, Where Control
           Meets Simplicity.
         </h1>
       </div>
@@ -19,7 +19,7 @@ export default function MarketingPage() {
         ease and efficiency.
       </div>
 
-      <Button asChild className="mt-6 bg-blue-600 duration-150 hover:bg-blue-700" size={"lg"}>
+      <Button asChild className="mt-6" size={"lg"}>
         <Link href="/signin">Get Started for Free</Link>
       </Button>
     </div>

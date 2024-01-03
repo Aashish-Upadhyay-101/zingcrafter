@@ -3,5 +3,9 @@ type AuthLayoutProps = {
 };
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
-  return <div>{children}</div>;
+  return (
+    <div className="h-full">
+      <div className="pb-20 pt-32">{children}</div>
+    </div>
+  );
 }
