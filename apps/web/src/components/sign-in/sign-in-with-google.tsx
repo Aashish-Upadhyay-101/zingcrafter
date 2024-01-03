@@ -1,4 +1,4 @@
-import { Button } from "@zingcrafter/ui/components/ui/button";
+import { Button } from "@zingcrafter/ui/components/primitives/button";
 import { GoogleIcon } from "@zingcrafter/ui/components/icons/google";
 
 export default function SignInWithGoogle() {

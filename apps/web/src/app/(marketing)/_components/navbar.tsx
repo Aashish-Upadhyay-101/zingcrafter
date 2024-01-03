@@ -1,4 +1,4 @@
-import { Button } from "@zingcrafter/ui/components/ui/button";
+import { Button } from "@zingcrafter/ui/components/primitives/button";
 
 export default function Navbar() {
   return (

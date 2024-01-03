@@ -1,4 +1,4 @@
-import { Separator } from "@zingcrafter/ui/components/ui/separator";
+import { Separator } from "@zingcrafter/ui/components/primitives/separator";
 
 export default function SignInSeparator() {
   return (

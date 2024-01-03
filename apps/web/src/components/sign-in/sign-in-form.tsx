@@ -1,6 +1,6 @@
-import { Label } from "@zingcrafter/ui/components/ui/label";
-import { Input } from "@zingcrafter/ui/components/ui/input";
-import { Button } from "@zingcrafter/ui/components/ui/button";
+import { Label } from "@zingcrafter/ui/components/primitives/label";
+import { Input } from "@zingcrafter/ui/components/primitives/input";
+import { Button } from "@zingcrafter/ui/components/primitives/button";
 
 export default function SignInForm() {
   return (
