@@ -6,7 +6,7 @@ import SignInWithGoogle from "~/components/sign-in/sign-in-with-google";
 export default function SigninPage() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex max-w-lg flex-col items-center justify-center overflow-hidden">
+      <div className="flex max-w-lg flex-col items-center justify-center overflow-hidden p-1">
         <SignInHeader />
         <SignInForm />
         <SignInSeparator />
